@@ -1,0 +1,25 @@
+.reviewcnt{
+    display: flex;
+    width: 70%;
+}
+.left{
+ width: 70%;
+
+}
+.right{
+width: 30%;
+}
+.rating_review p:nth-child(1){
+    background-color: #26A541;
+    border-radius: 5px;
+    color: #fff;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 660;
+    gap: 2px;
+}
+.rating_review p:nth-child(1) i{
+    font-size: 13px;
+}
